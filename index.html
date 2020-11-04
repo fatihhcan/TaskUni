@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vize - 1 Ödevi</title>
+</head>
+<body>
+
+    <table border="5" width="800">
+		<tr>
+			<th colspan="3">ANKET</th>
+    </tr>
+
+		<tr>
+          <td id="adi">ADI:</td>
+           <td><input type="text" id="adı" name="adı"></td> 
+    </tr>
+
+		<tr>
+			   <td id="soyadi">SOYADI:</td>
+          <td><input type="text" id="soyadı" name="soyadı"></td> 
+
+    </tr>
+
+		<tr>
+			   <td id="eposta">EPOSTA:</td>
+          <td><input type="text" id="eposta" name="eposta"></td> 
+    </tr>
+
+		<tr>
+            <td id="egitimdurumu">EĞİTİM DURUMU:</td>
+           <td>
+               <select name="egitimDurumu" id="egitimDurumu">
+                <option value="ilkogretim">İlköğretim</option>
+                <option value="ortaogretim">Ortaöğretim</option>
+                <option value="önLisans">Ön Lisans</option>
+                <option value="lisans">Lisans</option>
+                <option value="mezun">Mezun</option>
+              </select>
+            </td>
+     </tr>
+
+    <tr>
+			<td id="dogumyeri">DOĞUM YERİ:</td>
+            <td> 
+                <select name="dogumYeri" id="dogumYeri">
+                 <option value="burdur">Burdur</option>
+                 <option value="izmir">İzmir</option>
+                 <option value="ankara">Ankara</option>
+                 <option value="istanbul">İstanbul</option>
+                 <option value="çanakkale">Çanakkale</option>
+               </select>
+             </td>
+    </tr>
+
+    <tr>
+	<td id="hobiler">HOBİLERİNİZ:</td>
+          <td >
+               <input type="checkbox" name="hobiler" value="Sinema">Sinema
+               <input type="checkbox" name="hobiler" value="Kitap Okuma">Kitap Okuma
+               <input type="checkbox" name="hobiler" value="Tiyatro İzlemek">Tiyatro İzlemek
+               <input type="checkbox" name="hobiler" value="Alışveriş">Alışveriş
+          </td>
+    </tr>
+
+        <tr>
+            <td id="cinsiyet">CİNSİYET:</td>
+          <td>
+            <input type="radio" name="cinsiyet" value="Erkek">ERKEK
+            <input type="radio" name="cinsiyet" value="Kadın">KADIN
+         </td>
+        </tr>
+
+        <tr>
+           <div id="yorum"> <td id="yorum">YORUMLARINIZ:</td></div>
+            <td><input type="text" id="yorum" name="yorum"></td> 
+        </tr>
+
+      <tr>
+        <td><button onclick=null>Gönder</button></td>
+			<td></td>
+		</tr>
+  </table>
+
+</body>
+</html>

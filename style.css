@@ -1,0 +1,37 @@
+body {
+    background-color: silver;
+    
+}
+
+#yorum{
+    height: 50px;
+    width: 640px;
+}
+#adi{
+ text-align: right;
+}
+#soyadi{
+    text-align: right;
+
+}
+#eposta{
+    text-align: right;
+
+}
+#egitimdurumu{
+
+    text-align: right;
+}
+#dogumyeri{
+    text-align: right;
+    height: 35px;
+}
+#hobiler{
+    text-align: right;
+    height: 35px;
+}
+
+#cinsiyet{
+    text-align: right;
+
+}
